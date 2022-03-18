@@ -15,6 +15,7 @@ class Alarm_clock:
               answered_correctly = True
               self.alarm_time = input('What time would you like to be alarmed? "6:45am"?  ')
               self.alarm_on = True
+              self.current_time = self.alarm_time
               print("---------------------------------")
               print(f"Great your alarm is set to {self.alarm_time}")
               print("---------------------------------")
